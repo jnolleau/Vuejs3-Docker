@@ -4,9 +4,11 @@ services:
   
 # frontend Service with Vue.js framework
   frontend:
+    container_name: vuejs3-frontend
     # image: node:${NODE_VERSION}
     build:
       context: "."
+      dockerfile: Dockerfile-frontend
       args:
        NODE_VERSION: ${NODE_VERSION}
     volumes:
