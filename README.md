@@ -39,8 +39,7 @@ OR
 ```sh
 docker exec -ti vuejs3-frontend npm uninstall <dependency name>
 ```
-ALTERNATIVELY
-Modify the package.json file at your convenience, then:
+ALTERNATIVELY, modify the package.json file at your convenience, then:
 ```sh
 docker exec -ti vuejs3-frontend npm install
 ```
