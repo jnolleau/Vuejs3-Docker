@@ -2,13 +2,14 @@
 A simple HelloWorld Vuejs 3 project in Docker container
 
 ## To start the project with image building
+It basically creates a .env file and launch docker compose with --build tag
 
 ```sh
-docker compose up --build
+./setup.sh
 ```
 
 ## To start the project without building
-
+Not suitable is no .env and no built image exist
 ```sh
 docker compose up
 ```
